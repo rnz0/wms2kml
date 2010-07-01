@@ -1,0 +1,8 @@
+With support from the ESIP Federation EDAC developed a basic conversion capability that allows for the automated generation of KML (viewable in Google Earth and other KML clients) from the service metadata for an Open Geospatial Consortium (OGC) Web Map Service (WMS) that provides access to the map layers advertised by that service. This conversion service requires only a link that points to the service metadata advertised by a WMS (a WMS GetCapabilities request), with the information extracted from the metadata providing the information needed to generate a KML file that makes use of the service. This capability streamlines the delivery of any WMS into clients that implement support for the KML standard. 
+
+This service was demonstrated at the Winter ESIP Federation Meeting as part of their poster session. The presented poster may be downloaded from here. The service may be accessed from here. The conversion is based upon standard XML processing tools, and makes use of an XSL stylesheet to define the mapping from the WMS service metadata into corresponding KML elements. The XSL stylesheet is also available for download from here. This stylesheet is shared under the GPLv3 Open Source license and can provide the foundation for a similar service that is customized to meet the specific needs of other applications. 
+
+Authors:
+
+Karl Benedict 
+Renzo Sanchez-Silva
